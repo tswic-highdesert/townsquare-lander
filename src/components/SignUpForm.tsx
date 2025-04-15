@@ -23,7 +23,6 @@ const SignUpForm: React.FC = () => {
       return;
     }
 
-    // Basic phone validation (optional, adjust as needed)
     // This is a very simple check, consider a library for robust validation
     if (phone && !/^\+?[0-9\s\-()]{7,}$/.test(phone)) {
       setError('Please enter a valid phone number.');
@@ -60,7 +59,7 @@ const SignUpForm: React.FC = () => {
         <div className="max-w-2xl mx-auto text-center bg-surface p-8 md:p-12 rounded-lg shadow-medium">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Be the First to Know</h2>
           <p className="text-lg text-text-secondary mb-8">
-            Sign up for exclusive early access to LocalFirst and get notified about our launch, plus receive SMS updates (optional).
+            Sign up for exclusive early access to LocalFirst and get notified about our launch, plus receive SMS updates.
           </p>
 
           {submitted ? (
@@ -113,7 +112,7 @@ const SignUpForm: React.FC = () => {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   className="input-field pl-10"
-                  placeholder="Phone number for SMS updates (optional)"
+                  placeholder="Phone number for SMS updates"
                   required
                 />
               </div>

@@ -17,18 +17,18 @@ const IncentiveItem: React.FC<IncentiveItemProps> = ({ icon: Icon, title }) => (
 
 const EarlyAccessIncentivesBlock: React.FC = () => {
   const incentives = [
-    { icon: Ticket, title: 'Launch Event Invites' },
-    { icon: Medal, title: 'Founding Member Shoutouts' },
-    { icon: Rocket, title: 'Priority Feature Access' },
+    { icon: Ticket, title: 'Exclusive Event Invites' },
+    { icon: Medal, title: 'Early Adopter Recognition' },
+    { icon: Rocket, title: 'First Access to Business Tools' },
   ];
 
   return (
     <section id="early-access-incentives" className="py-section bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Early Access Incentives</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Early Adopters Get More</h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Give people a reason to join now.
+            Businesses that sign up (for free) today will have exlusive access to perks:
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -22,17 +22,17 @@ const Features: React.FC = () => {
     {
       icon: MapPin,
       title: 'Be Discovered',
-      description: 'Make your business easy to find online and in town.',
+      description: 'Make it easier for locals and visitors to find you—online and on foot.',
     },
     {
       icon: Handshake,
       title: 'Connect Locally',
-      description: 'Reach real people who care about local.',
+      description: 'Build stronger community ties through features designed for real-world interaction.',
     },
     {
       icon: Compass,
       title: 'Lead the Movement',
-      description: 'Be known as a local leader in a digital-first world.',
+      description: 'Position your business as a local leader at the heart of a growing digital platform.',
     },
   ];
 
@@ -40,7 +40,7 @@ const Features: React.FC = () => {
     <section id="features" className="py-section bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Why It Matters</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">Why Your Business Should Be Here</h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
             We're building the essential toolkit for vibrant local economies in the digital age.
           </p>
